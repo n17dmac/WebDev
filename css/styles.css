@@ -70,7 +70,7 @@ header{
 
 .font-broadway{
 	font-family: 'broadway', sans-serif;
-	font-size: 73px;
+	font-size: 50px;
 	color: #1a237e !important;
 }
 
@@ -93,8 +93,8 @@ header{
 and (min-width: 700px) {
 	.font-qg{
 		font-family: 'qg', sans-serif;
-		font-size: 202px;
-		color: #2b6da9 !important;
+		font-size: 100px;
+		color: #e3f2fd !important;
 	}
 
 	.font-kg{
@@ -339,5 +339,9 @@ and (orientation : portrait) {
   transition: background-color .5s ease-out 0s;
   /*
   */
+}
+#card-client.card{
+height:250px;
+width: 250px;
 }
 

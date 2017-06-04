@@ -1,3 +1,22 @@
+<?php
+
+$to = 'info@qualitexph.com';
+$name = $_POST['fname'];
+$email = $_POST['email'];
+$subject = $_POST['subject']; 
+$message = $_POST['message'];
+
+$message = <<<EMAIL
+
+
+EMAIL;
+
+$header = $email;
+if($_POST0){
+mail($to, $subject, $message, $header)
+}
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -7,7 +26,6 @@
 		
 		<!--Import Google Icon Font-->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		
 		
 		<!--Import materialize.css-->
 		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -76,7 +94,7 @@
 					<div class="nav-content tab-link">
 						<ul class="tabs tabs-transparent" id="tab-opener">
 							<li class="tab"><a class="active" id="tab-opener1" href="">Home</a></li>
-							<li class="tab"><a class="" id="tab-opener" href="">Clients</a></li>
+							<li class="tab"><a class="" id="tab-opener2" href="">Clients</a></li>
 							<li class="tab"><a class="" id="tab-opener3" href="">Services</a></li>
 							<li class="tab"><a class="" id="tab-opener4" href="">Contact Us</a></li>
 						</ul>
@@ -234,7 +252,8 @@
 							<div class="col s12 center white-text">
 								<h3><i class="mdi-content-send brown-text"></i></h3>
 								<h4 class="red-text light" style="font-style: italic;">
-								Quotes!
+								<span style="color: #0d47a1;"><font class="font-broadway">No Retreat!</span><br><span style="color: #b71c1c;">No Surrender!</span></font> 
+								 
 								</h4>
 							</div>
 						</div>
@@ -315,10 +334,365 @@
 							<div class="row">
 								<div class="col s12 center">
 								  <h3><i class="mdi-content-send brown-text"></i></h3>
-								  <h1 class="header center">Spdr's Works</h1>
-								  <hr width="50%" />
+								  <h1 class="header center"><font class="font-blogger">Choose </font><font class="font-broadway">Qualit</span><span style="color: #d50000;">Ex</span></font></h1>
+								  <hr color="#b71c1c" width="50%" />
 								</div>
 							</div>
+							
+						
+						
+							
+						</div>
+					</div>
+					
+						<div class="parallax-container valign-wrapper">
+							<div class="row">
+								<div class="col s12 center white-text">
+									<h3><i class="mdi-content-send brown-text"></i></h3>
+									<h4 class="black-text light"></h4>
+								</div>
+							</div>
+							<div class="parallax"><img src="img/luzon.png" alt="Unsplashed background img 2"></div>
+						</div>
+						
+						<div style="background-color: #0d47a1; padding-top: 5px">
+							<h1 class="left-align"><font class="font-qg">Luzon </font>
+						</div>
+					
+					<div class="container">
+						<div class="section">
+							<div class="row">
+								
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator center-align" src="img/client/client1.png" style="width: 100%; height: 100%;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Elohim Industrial Sales<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>ISO 17025</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification </span><br>Preventive and Predictive Maintenance of Rotating Machines  Services, Automation and Fabrication including Supply and Installation of Electrical Works.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client2.png" style="width:120%; height:150%; padding-right:30px; padding-top:50px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Phoenic Semiconductor Philippines Corp.<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 14001</li>
+													<li>ISO 18001</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>Manufacture of Memory Modules for PCs and notebooks; and other related products.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client5.png" style="width:100%; height:180px; padding-top: 50px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Dimension-All Incorporated<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>ISO 14001</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>Fabrication, Selling, Installation and Rental of Formworks and Scaffolding.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client8.png" style="width:100%; height:160px; padding-top: 50px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Fujifilm Optics Philippines<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>ISO 14001</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Manufacturing of optical devices, camera lenses including Prism and Assembly Production.
+												</p>
+											</div>
+										</div>
+									</div>
+							</div>
+							
+							<div class="row">
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client9.png" style="width:100%; height:180px; padding-top: 50px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Ximex Delivery Express, Inc. <i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision for Domestic Land, Air & Sea Freight, Forwarding and Wareehousing Services.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client10.png" style="width:100%; height:170px; padding-top: 70px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Monark Equipment Corp.<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision of Maintenance Services for Heavy Equipment including Testing and Commisioning, Rental of Power and Parts Sales, Warehouse and Delivery.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client11.png" style="width:100%; height:100%;padding-top: 50px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Cosworth Multi-Resources Machinery Corp.<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision of engineering services (steel and parts fabrication, general machining, welding, metal forming, dynamic balancing, mechanical overhauling and assembly).
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client14.png" style="width:220px; height:100%; padding-left: 30px; padding-top:30px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Joel Chavez Equipment Rentals Corp.<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>Retainers</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision of Heavy and Light Equipment Rentals.
+												</p>
+											</div>
+										</div>
+									</div>
+								
+							</div>
+							
+							<div class="row">
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client15.png" style="width:230px; height:200px; padding-left:30px; padding-top: 30px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Li Ming Technology Philippines<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Plastic Injection parts.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client16.png" style="width:90%; height:100%; padding-left: 30px; padding-top: 20px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">M-PRO Construction <i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>Retainers</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Manufacture of Wire Harness for Automobiles.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client21.png" style="width:100%; height:100%; padding-top: 40px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Furukawa Automotive Systems Lima Philippines, Inc.<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Engineering, Supply and Installation of Mechanical (Process Piping) and Electrical Works.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client22.png" style="width:90%; height:80%; padding-left: 40px; padding-top: 40px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">GMV Corporation<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>ISO 14001</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision of Cold Storage and Warehouse.
+												</p>
+											</div>
+										</div>
+									</div>
+								
+							</div>
+							
+							<div class="row">
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client23.png" style="width:80%; height:80%; padding-left: 50px; padding-top: 20px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Petron Corporation - Materials Management Department<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision of Warehousing Services for Spareparts and Chemicals.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client24.png" style="width:90%; height:80%; padding-left: 40px; padding-top: 30px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">ORICA Philippines Incorporated<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>ISO 14001</li>
+													<li>OHSAS 18001</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Manufacture of Explosives (Ammonium Nitrate Fuel Oil (ANFO), Non-Electric detonators, Detonating Cord and Boosters).
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client25.png" style="width:100%; height:100%; padding-left: 10px; padding-top: 40px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">International Electric Wires Phil. Corp.<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>ISO 14001</li>
+													<li>OHSAS 18001</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Manufacture of Wire and Cable.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client26.png" style="width:80%; height:80%; padding-left: 50px; padding-top: 40px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title blue-text text-darken-4" style="font-weight: bold; font-style: italic;">Pest Science Corporation<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li>ISO 14001</li>
+													<li>OHSAS 18001</li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Pest Control.
+												</p>
+											</div>
+										</div>
+									</div>
+							
+							</div>
+							
 						</div>
 					</div>
 					
@@ -326,121 +700,262 @@
 						<div class="row">
 							<div class="col s12 center white-text">
 								<h3><i class="mdi-content-send brown-text"></i></h3>
-								<h4 class="black-text light">We also have created some games and apps during our time being students.</h4>
+								<h4 class="black-text light"></h4>
 							</div>
 						</div>
-						<div class="parallax"><img src="img/background2.png" alt="Unsplashed background img 2"></div>
+						<div class="parallax"><img src="img/visaya.png" alt="Unsplashed background img 2"></div>
 					</div>
+						
+						<div style="background-color: #b71c1c; padding-top: 5px">
+							<h1 class="right-align"><font class="font-qg">Visaya </font>
+						</div>
+					
+					<div class="container">
+						<div class="section">
+							
+							<div class="row">
+								<div class="col s12 m6 l3">
+									<div class="card hoverable" id="card-client">
+										<div class="card-image waves-effect waves-block waves-light">
+											<img class="activator" src="img/client/client3.png" style="width:320px; height:100%; padding-right: 50px; padding-top: 60px;">
+										</div>
+										<div class="card-reveal">
+											<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">FF Cruz Shipping Corp.<i class="material-icons right">close</i></span>
+											<p>
+											<span style="font-weight: bold;">Services</span>
+											<ul>
+												<li>ISO 9001</li>
+												<li></li>
+												<li></li>
+											</ul>
+											<span style="font-weight: bold;">Scope of Certification</span><br>
+											Provision of Roll-In Roll-Off Services.
+											</p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col s12 m6 l3">
+									<div class="card hoverable" id="card-client">
+										<div class="card-image waves-effect waves-block waves-light">
+											<img class="activator" src="img/client/client4.png" style="width:90%; height:100%; padding-left: 40px; padding-top: 50px;">
+										</div>
+										<div class="card-reveal">
+											<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">FF Marine Corp.<i class="material-icons right">close</i></span>
+											<p>
+											<span style="font-weight: bold;">Services</span>
+											<ul>
+												<li>ISO 9001</li>
+												<li></li>
+												<li></li>
+											</ul>
+											<span style="font-weight: bold;">Scope of Certification</span><br>
+											Provision of Dredging and Reclamation.
+											</p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col s12 m6 l3">
+									<div class="card hoverable" id="card-client">
+										<div class="card-image waves-effect waves-block waves-light">
+											<img class="activator" src="img/client/client7.png" style="width:100%; height:150px;; padding-top: 70px;">
+										</div>
+										<div class="card-reveal">
+											<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">Flextronics Automotive System, Inc. <i class="material-icons right">close</i></span>
+											<p>
+											<span style="font-weight: bold;">Services</span>
+											<ul>
+												<li>ISO 9001</li>
+												<li></li>
+												<li></li>
+											</ul>
+											<span style="font-weight: bold;">Scope of Certification</span><br>
+											Provision of Design and Development for Mechanical, Electronics and Wire Harness of Automotive.
+											</p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="col s12 m6 l3">
+									<div class="card hoverable" id="card-client">
+										<div class="card-image waves-effect waves-block waves-light">
+											<img class="activator" src="img/client/client12.png" style="width:80%; height:100%; padding-left: 30px; padding-top:40px;">
+										</div>
+										<div class="card-reveal">
+											<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">Silver Dragon Construction<i class="material-icons right">close</i></span>
+											<p>
+											<span style="font-weight: bold;">Services</span>
+											<ul>
+												<li>ISO 9001</li>
+												<li></li>
+												<li></li>
+											</ul>
+											<span style="font-weight: bold;">Scope of Certification</span><br>
+											Provision of Construction Services for Road and Highway Pavement, Railways, Bridges, Irrigation and Flood Control, Water Supply, Dam, Port and Harbor, Building and Industrial Plant.
+											</p>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+							
+							<div class="row">
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client13.png" style="width:90%; height:100%; padding-left: 40px; padding-top: 30px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">RX Trade<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Retail Drugs Store and Medicines Distributor.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client17.png" style="width:80%; height:100%; padding-left: 50px; padding-top:50px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">AS Enriquez Engineering Consultancy<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision of Design and Development for Mechanical, Electronics and Wire Harness of Automotive.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client19.png" style="width:80%; height:100%; padding-left: 40px; padding-top: 40px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">Eversley Child Sanitarium<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												Provision of Health Care Services.
+												</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m6 l3">
+										<div class="card hoverable" id="card-client">
+											<div class="card-image waves-effect waves-block waves-light">
+												<img class="activator" src="img/client/client20.png" style="width:80%; height:100%; padding-left: 50px; padding-top: 30px;">
+											</div>
+											<div class="card-reveal">
+												<span class="card-title red-text text-darken-4" style="font-weight: bold; font-style: italic;">F. Gurrea Construction, Inc.<i class="material-icons right">close</i></span>
+												<p>
+												<span style="font-weight: bold;">Services</span>
+												<ul>
+													<li>ISO 9001</li>
+													<li></li>
+													<li></li>
+												</ul>
+												<span style="font-weight: bold;">Scope of Certification</span><br>
+												General Construction and Engineering Services for various Civil, Ports and Harbors and Industrial Works including Rental of Construction Heavy Equipment.
+												</p>
+											</div>
+										</div>
+									</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					<div class="parallax-container valign-wrapper">
+						<div class="row">
+							<div class="col s12 center white-text">
+								<h3><i class="mdi-content-send brown-text"></i></h3>
+								<h4 class="black-text light"></h4>
+							</div>
+						</div>
+						<div class="parallax"><img src="img/mindanao.png" alt="Unsplashed background img 2"></div>
+					</div>
+						
+						<div style="background-color: #ffd600; padding-top: 5px">
+							<h1 class="left-align"><font class="font-qg">Mindanao</font>
+						</div>
 					
 					<div class="container">
 						<div class="section">
 							<div class="row">
-								
-								<div class="col s12 m12 l6">
-									<div class="card horizontal lanz-bgworks">
-										<div class="card-image">
-											<img src="img/works/enrapture.png">
+							
+								<div class="col s12 m6 l6">
+									<div class="card hoverable" id="card-client">
+										<div class="card-image waves-effect waves-block waves-light">
+											<img class="activator" src="img/client/client6a.png" style="width:100%; height:300px; padding-bottom: 50px;">
 										</div>
-										<div class="card-stacked">
-											<div class="card-content">
-												<span class="card-title activator">Enrapture</span>
-												<p>An android puzzle game application to all the kids who loves space and wants to learn numbers.</p>
-											</div>
-											<div class="card-action">
-												<a class="waves-effect waves-light btn" href="https://play.google.com/store/apps/details?id=com.neutron.enrapture" target="_blank"> <i class="fa fa-download" aria-hidden="true"></i>  Google Play</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="col s12 m12 l6">
-									<div class="card horizontal lanz-bgworks">
-										<div class="card-image">
-											<img src="img/works/destructopus.png">
-										</div>
-										<div class="card-stacked">
-											<div class="card-content">
-												<span class="card-title activator">Gigantopus</span>
-												<p>An android strategy game that lets you control an octupus with mutated tentacles.</p>
-											</div>
-											<div class="card-action">
-												<a class="waves-effect waves-light btn" href="https://play.google.com/store/apps/details?id=com.glmb.gigantopusdemo" target="_blank"> <i class="fa fa-download" aria-hidden="true"></i>  Google Play</a>
-											</div>
+										<div class="card-reveal">
+											<span class="card-title yellow-text text-accent-4" style="font-weight: bold; font-style: italic;">CTK Asia Rubber<i class="material-icons right">close</i></span>
+											<p>
+											<span style="font-weight: bold;">Services</span>
+											<ul>
+												<li>ISO 9001</li>
+												<li>ISO 14001</li>
+												<li></li>
+											</ul>
+											<span style="font-weight: bold;">Scope of Certification</span><br>
+											Manufacturing of Natural Rubber.
+											</p>
 										</div>
 									</div>
 								</div>
 								
-								<div class="col s12 m12 l6">
-									<div class="card horizontal lanz-bgworks">
-										<div class="card-image">
-											<img src="img/works/vampirism.png">
+								<div class="col s12 m6 l6">
+									<div class="card hoverable" id="card-client">
+										<div class="card-image waves-effect waves-block waves-light">
+											<img class="activator" src="img/client/client18.png" style="width:100%; height:100%; padding-left: 10px; padding-top: 50px;">
 										</div>
-										<div class="card-stacked">
-											<div class="card-content">
-												<span class="card-title">Vampirism</span>
-												<p>An android horror virtual reality game that let the user explore the 3-Dimensional game nowadays.</p>
-											</div>
-											<div class="card-action">
-												<a class="waves-effect waves-light btn" href="https://play.google.com/store/apps/details?id=com.getVamped.Vampirism" target="_blank"> <i class="fa fa-download" aria-hidden="true"></i>  Google Play</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="col s12 m12 l6">
-									<div class="card horizontal lanz-bgworks">
-										<div class="card-image">
-											<img src="img/works/elementaldash.png">
-										</div>
-										<div class="card-stacked">
-											<div class="card-content">
-												<span class="card-title">Elemental Dash</span>
-												<p>An android endless running and free side scrolling game application that is based on elements.</p>
-											</div>
-											<div class="card-action">
-												<a class="waves-effect waves-light btn" href="https://play.google.com/store/apps/details?id=com.VICASI.ElementalDash" target="_blank"> <i class="fa fa-download" aria-hidden="true"></i>  Google Play</a>
-											</div>
+										<div class="card-reveal">
+											<span class="card-title yellow-text text-accent-4" style="font-weight: bold; font-style: italic;">Techno-Trade Resources, Inc. <i class="material-icons right">close</i></span>
+											<p>
+											<span style="font-weight: bold;">Services</span>
+											<ul>
+												<li>ISO 9001</li>
+												<li>ISO 14001</li>
+												<li></li>
+											</ul>
+											<span style="font-weight: bold;">Scope of Certification</span><br>
+											Manufacture of UPVC Thermoplastic Roofing, UPVC Pipes for Potable Water, UPVC Pipes for Sanitary Application, UPVC Pipes for Electrical Conduits (Rigid & Flexible) and HDPE Pipes.
+											</p>
 										</div>
 									</div>
 								</div>
 								
-								<div class="col s12 m12 l6">
-									<div class="card horizontal lanz-bgworks">
-										<div class="card-image">
-											<img src="img/works/i68.png">
-										</div>
-										<div class="card-stacked">
-											<div class="card-content">
-												<span class="card-title">i68</span>
-												<p>A company specializing in providing professional services in the areas of Accounting, Tax Compliance, Business Registration and other business related matters.</p>
-											</div>
-											<div class="card-action">
-												<a class="waves-effect waves-light btn" href="http://i68bizconsult.com/home/" target="_blank"> <i class="fa fa-eye" aria-hidden="true"></i>  Visit Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								
-								<div class="col s12 m12 l6">
-									<div class="card horizontal lanz-bgworks">
-										<div class="card-image">
-											<img src="img/works/yourspace.png">
-										</div>
-										<div class="card-stacked">
-											<div class="card-content">
-												<span class="card-title">Your Space</span>
-												<p>A simple social media website that exhibits flat design.</p>
-											</div>
-											<div class="card-action">
-												<a class="waves-effect waves-light btn" href="http://your-space.herokuapp.com/" target="_blank"> <i class="fa fa-eye" aria-hidden="true"></i>  Visit Website</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								
+							
 							</div>
 						</div>
 					</div>
+					
+					
 				</div>
 			</div>
 			<!-- END OF TAB 2 -->
@@ -628,33 +1143,36 @@
 								<form class="col s12">
 									<div class="row">
 										<div class="input-field col s12 m6 l6">
-										  <input id="first_name" type="text" class="validate">
-										  <label for="first_name">First Name</label>
+										  <input name="fName" id="name" type="text" class="validate">
+										  <label for="name">Full Name</label>
 										</div>
+										
 										<div class="input-field col s12 m6 l6">
-										  <input id="last_name" type="text" class="validate">
-										  <label for="last_name">Last Name</label>
+										  <input name="email" id="email" type="email" class="validate">
+										  <label for="email">Email</label>
 										</div>
 									</div> 
 									<div class="row">
+										
 										<div class="input-field col s12">
-										  <input id="email" type="email" class="validate">
-										  <label for="email">Email</label>
+										  <input name="subject" id="subject" type="text" class="validate">
+										  <label for="subject">Subject</label>
 										</div>
 									</div>
 									
 									<div class="row">
+										
 										<div class="input-field col s12">
-										  <i class="material-icons prefix"></i>
-										  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-										  <label for="icon_prefix2">Message</label>										  
+										  <i class="material-icons prefix">mode_edit</i>
+										  <textarea name="message" id="message" class="materialize-textarea"></textarea>
+										  <label for="message">Message</label>										  
 										</div>
 									</div>									
 								</form>
 								
 								<div class="row right-align " style="padding-right:27px;">
 									<button class="btn waves-effect waves-light blue darken-4" type="submit" name="action">Submit
-										<i class="material-icons right"></i>
+										<i class="material-icons right">send</i>
 									</button>
 								</div>
 								

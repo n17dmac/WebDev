@@ -191,7 +191,7 @@ $(document).ready(function(){
 	$('.modal').modal();
 	$('.slider').slider({
     indicators:false
-  });
+	});
 });
 
 $(window).bind('DOMContentLoaded load resize', function () {
