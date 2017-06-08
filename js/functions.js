@@ -192,6 +192,7 @@ $(document).ready(function(){
 	$('.slider').slider({
     indicators:false
 	});
+	$('.materialboxed').materialbox();
 });
 
 $(window).bind('DOMContentLoaded load resize', function () {
