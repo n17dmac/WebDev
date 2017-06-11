@@ -65,7 +65,7 @@ header{
 }
 @font-face{
 	font-family: 'broadway';
-	src: url("fonts/Broadway.ttf") format('eot');
+	src: url("fonts/Broadway.ttf") format('truetype');
 }
 
 .font-broadway{
